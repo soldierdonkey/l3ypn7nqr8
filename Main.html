@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Authentication
+    </title>
+    <style>
+        div {
+          background-color: rgb(255, 253, 203);
+          width: 300px;
+          border: 10px solid rgb(206, 72, 0);
+          padding: 50px;
+          margin: 20px;
+          text-align: center;
+          position: absolute;
+          top: 100px;
+          left: 50%;
+          margin-top: -50px;
+          margin-left: -180px;
+        }
+        .login {
+            background-image: url('res/back.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+        .base {
+            background-image: url('res/base.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%; 
+        }
+        </style>
+    <body style="background-color: aqua;" id="body" class="login">
+        <div id="div">
+        <script src="res/vars.js"></script>
+        <form id="form" style="text-align:center;">
+            <label for="usr">USER:</label><br>
+            <input type="usr" id="usr" name="usr"><br>
+            <label for="pwd">PASSWORD:</label><br>
+            <input type="pwd" id="pwd" name="pwd"><br>
+        </form> <p style="text-align: center;">
+        <button onclick="submit()" id="sub" style="text-align: center;">Submit!</button>
+        </p>
+        </div>
+        </body>
+        <p id="i"><p>
+        <br>
+            <script src="res/script.js">
+            </script>
+    </body>
+</html>
